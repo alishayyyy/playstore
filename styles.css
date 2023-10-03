@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+border: 1px solid black;
+  width: 430px;
+  margin: 0px auto;
+  font-family: sans-serif;
+  
+}
+/* .main-header{
+  background-color: black;
+  color: azure;
+} */
+.icon{
+    height: 20px;
+    width: 20px;
+}
+.first{
+  display: flex;
+  flex: 1;
+  gap: 30px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+.img-1{
+  border-radius: 30px;
+  justify-items: flex-end;
+}
+.two{
+  display: flex;
+  flex: 1;
+  gap: 40px;
+  margin-top:10px ;
+  padding-left: 10px;
+  border-bottom:2px solid gray ;
+}
+.for-you{
+  border-bottom: 4px solid purple;
+  color:purple ;
+}
+.three{
+  margin-top:10px ;
+  padding-left:10px ;
+  display: flex;
+  flex: 1;
+  gap: 150px;
+}
+.four{
+  margin-top: 10px;
+  padding-left: 7px;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr ;
+  grid-template-rows: auto;
+
+  /* flex: 1;
+  gap: 75px; */
+}
+.img-2{
+  border-radius:20px ;
+}
+/* .five{
+  display: flex;
+} */
+.five{
+  padding-left: 7px;
+  display: flex;
+  flex: 1;
+  gap: 150px;
+  row-gap: 0px;
+  margin-top: 10px;
+}
+.icon-2{
+  width: 16px;
+  height: 16px;
+}
+.six{
+  display: flex;
+  flex: 1;
+  padding: 7px;
+  gap: 20px;
+}
+.unodered-list{
+  list-style-type: none;
+  padding-top: 7px;
+}
+.seven{
+display: flex;
+flex: 1;
+padding: 7px;
+ gap: 20px;
+}
+.eight{
+  display: flex;
+flex: 1;
+padding: 7px;
+ gap: 20px;
+}
+.nine{
+  display:grid;
+grid-template-columns: 1fr 1fr;
+padding-left: 70px;
+column-gap: 10px;
+margin-top: 10px;
+background-color:gray ;
+
+}
+.icon-3{
+  width: 30px;
+  height: 30px;
+}
+.apps{
+  width: 30px;
+  height: 30px;
+  border: 3px solid blue;
+  border-radius: 10px;
+}
